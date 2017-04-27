@@ -573,7 +573,7 @@ That is, it evaluates the differential equation at the current time step and app
 
 [You can add a diagram to illustrate this - even a hand drawn example.]
 
-The error in the approximation of the solution by the explicit Euler method grows in proportion to the step size $h$, that is $\|{\bf r}_N-{\bf r}(Nh)\|=\mathcal{O}(h)$. We therefore say that the method is fist order accurate.
+The error in the approximation of the solution by the explicit Euler method grows in proportion to the step size $h$, that is $\|{\bf r}_N-{\bf r}(Nh)\|=\mathcal{O}(h)$. We therefore say that the method is first order accurate.
 
 While the explicit Euler method is very easy to implement, it has a number of issues (you'll see one of them in the assignment). These include the fact that it becomes unstable (the error in its approximation starts to grow exponentially) when the step size is too large. The \emph{implicit Euler} (like the explicit Euler method, but the derivative is evaluated at the end of the time step i.e.$f(r_{n+1})$) method avoids this issue, but at the cost of needing to iteratively solve an implicit equation $r_{n+1}=r_n+hf(r_{n+1})$. It is still only first order.
 
