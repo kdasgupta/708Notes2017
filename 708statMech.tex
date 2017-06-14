@@ -1290,9 +1290,6 @@ One popular generative network model is the \emph{preferential attachment plus g
 As the name suggests, at each time step, the PAPG model adds a node with degree $m$. Each of the edges of the new node attaches itself to a node in the existing network with a probability that is proportionate to the degree of the existing nodes. The edges in this model are undirected and once and edge is attached to a node, there is no re-wiring. It isn't too hard to prove that the PAPG model generates graphs with a power law degree distribution with $p_k \sim k^{-3}$. The fact that the power law exponent is fixed is unfortunate, though generalisation of the PAPG model allow for different exponents. It is also not hard to see that the PAPG model only produces connected graphs. This limits its applicability to some real world networks. Even though the PAPG model manages to grow networks that reproduce some real-world features (the power-law degree distribution), it does so in a way that may not match up with the growth processes of those real-world networks. For example the highest degree nodes of the PAPG model are the oldest nodes --- this is not the case with networks such as the WWW to which the PAPG model might be applied.
 
 \subsection*{Recommended reading}
-To come...
-
-
-
+There are several good books on complex networks, including \emph{Lectures on Complex Networks} by S.N. Dorogovtsev and \emph{The Structure of Complex Networks} by E. Estrada, but some of the best content is in the form of journal survey articles. My picks are the two by M.E.J. Newman: \emph{The Structure and Function of Complex Networks} and, joint with J. Park \emph{Statistical Mechanics of Networks}. I used both of these extensively in writing this section. Also good is \emph{Statistical Mechanics of Complex Networks} by R. Albert and A.-L. Barabasi.
 
 \end{document}
