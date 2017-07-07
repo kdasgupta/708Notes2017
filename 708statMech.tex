@@ -10,7 +10,8 @@
 
 \title{Physics 708: Statistical Mechanics}
 \author{Dion O'Neale\\
-	with additional content from Nicola Gujer (especially the figures) and Utsav Patel (correcting various sign errors)}
+	with additional content from Nicola Gujer (especially the figures)\\
+	and Utsav Patel (correcting various sign errors)}
 \begin{document}
 \maketitle
 \tableofcontents
@@ -259,7 +260,7 @@ If you are feeling enthusiastic, compare the calculation above with the usual me
 \subsection{The Poisson distribution}
 Since the Poisson distribution shows up quite often in stat mech, we will have a look at how its properties can be derived via PGFs.
 The Poisson distribution describes the probability of $r$ distinct events occur in a time interval, given that the long-run average rate is $\lambda$ per time interval. It has probabilities given by $P(X=r) = \frac{\lambda^r}{r!}\exp(-\lambda)$. The PGF for the Poisson distribution is given by
-$$G(x) = \sum_r=0^\infty \frac{\lambda^r}{r!}\exp(-\lambda)x^r = \exp(-\lambda)\sum\frac{(\lambda x)^r}{r!}$$
+$$G(x) = \sum_{r=0}^\infty \frac{\lambda^r}{r!}\exp(-\lambda)x^r = \exp(-\lambda)\sum\frac{(\lambda x)^r}{r!}$$
 Note that the sum in the last term of the expression above is the power series expansion for the exponential function. Handy --- we can now write:
 \begin{eqnarray*}
 \calG(x) &=& \exp(-\lambda)\exp(\lambda x)\\
