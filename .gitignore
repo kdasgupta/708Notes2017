@@ -1,8 +1,7 @@
-
 *.aux
 
 *.log
 
-708statMech.pdf
+*.pdf
 
-708statMech.synctex.gz
+*.toc
